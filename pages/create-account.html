@@ -4,22 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/create-login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap"
+        rel="stylesheet">
     <title>Create Account</title>
 </head>
 
 <body>
 
-    <h3>Usuário:</h3>
-    <div id="createUserNotification"></div>
-    <input type="text" id="createUserName">
-    <div id="notificationName"></div>
-    <br>
-    <h3>Senha:</h3>
-    <div id="createPassNotification"></div>
-    <input type="password" id="createUserPassword">
-    <button id="createAccount">Criar</button>
-    <button onclick="DEBUG()" id="DEBUG">DEBUG</button>
-    <a href="/index.html">Já tem conta? faça login.</a>
+    <div id="content">
+        <h1>Crie sua conta no LocalStorage Social</h1>
+        <p>Lembrando, as senhas e usuários neste site não são seguras.</p>    
+    </div>
+    <div class="createLoginCard">
+        <h3>Usuário:</h3>
+        <div id="createUserNotification"></div>
+        <input type="text" id="createUserName">
+        <div id="notificationName"></div>
+        <br>
+        <h3>Senha:</h3>
+        <div id="createPassNotification"></div>
+        <input type="password" id="createUserPassword">
+        <a id="linkLogin" href="/index.html">Já tem uma conta? faça login :D</a>
+        <button id="createAccount">Criar</button>
+    </div>
+
+    
 
     <script src="/js/session.js"></script>
     <script src="/js/create-account.js"></script>

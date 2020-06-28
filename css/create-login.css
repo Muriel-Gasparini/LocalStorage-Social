@@ -1,0 +1,31 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+#content{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#content p, h1{
+    text-align: center;
+}
+
+
+.createLoginCard{
+    display: grid;
+    gap: 0.3em;
+    justify-content: center;
+}
+
+
+#linkLogin{
+    outline: none;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
